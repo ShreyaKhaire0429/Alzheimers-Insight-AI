@@ -98,3 +98,12 @@ Python · PyTorch · OpenCV
 Streamlit · NumPy · Pandas
 SHAP · Matplotlib · ReportLab
 Scikit-learn
+
+---
+
+📷 Demo
+<img width="1054" height="832" alt="Screenshot 2025-12-03 190826" src="https://github.com/user-attachments/assets/cd4c1df3-5dde-4fe9-ad92-a7753f0eda27" />
+<img width="977" height="897" alt="Screenshot 2025-12-03 190846" src="https://github.com/user-attachments/assets/0ee143d7-67c1-4ec8-9574-f086ac142e91" />
+<img width="978" height="748" alt="Screenshot 2025-12-03 190905" src="https://github.com/user-attachments/assets/1ef8449e-ddb7-4fec-a5d0-f4fbc5b117d8" />
+
+
