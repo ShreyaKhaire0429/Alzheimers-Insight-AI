@@ -77,16 +77,37 @@ If you have all of these (✅ yes, you do), you’re complete.
 
 ---
 
-### 5. (Optional) Add a `config.json` File  
-For smoother training — store constants like data paths, epochs, batch size here:
+###📦 Dataset Used
 
-`config.json`
-```json
-{
-  "data_path": "Data/",
-  "model_path": "models/best_model.pth",
-  "img_size": 128,
-  "batch_size": 8,
-  "epochs": 15,
-  "learning_rate": 0.0001
-}
+OASIS Alzheimer’s MRI Dataset — Kaggle
+Contains:
+3,700+ MRI images (128×128)
+Labels: CN, MCI, AD
+Clinical information (Age, MMSE)
+
+Dataset link:
+https://www.kaggle.com/datasets/ebrahimelgazar/oasis-mri-dataset
+
+---
+
+🧪 Model Architecture Details
+MRI Image Model (CNN)
+ResNet-18
+Extracts spatial brain features
+Clinical Model (MLP)
+
+Input:
+Age
+MMSE score
+Fusion Model
+Merges MRI + Clinical feature vectors
+Outputs CN / MCI / AD
+
+---
+
+🧑‍💻 Technologies Used
+
+Python · PyTorch · OpenCV
+Streamlit · NumPy · Pandas
+SHAP · Matplotlib · ReportLab
+Scikit-learn
