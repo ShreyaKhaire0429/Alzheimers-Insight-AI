@@ -15,7 +15,7 @@ MINI_2/
 ├── notebooks/ → Jupyter visualizations
 └── requirements.txt → Python dependencies
 
-
+---
 
 ### 🚀 Steps to Run
 1. Create environment:
@@ -25,22 +25,10 @@ MINI_2/
    pip install -r requirements.txt
 
 Train model:
-
 python src/train.py
 
-
 Run Streamlit app:
-
 streamlit run streamlit_app/app.py
-
-💡 Future Scope (Major Project)
-
-Integrate clinical data features.
-
-Add SHAP-based explainability.
-
-Build a more interactive dashboard.
-
 
 ---
 
@@ -90,7 +78,7 @@ https://www.kaggle.com/datasets/ebrahimelgazar/oasis-mri-dataset
 
 ---
 
-🧪 Model Architecture Details
+Model Architecture Details:
 MRI Image Model (CNN)
 ResNet-18
 Extracts spatial brain features
@@ -105,8 +93,7 @@ Outputs CN / MCI / AD
 
 ---
 
-🧑‍💻 Technologies Used
-
+Technologies Used:
 Python · PyTorch · OpenCV
 Streamlit · NumPy · Pandas
 SHAP · Matplotlib · ReportLab
