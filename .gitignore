@@ -1,0 +1,21 @@
+# Virtual envs
+venv/
+.venv/
+
+# Temporary folders
+tmp/
+dist/
+__pycache__/
+*.pyc
+
+# Large model and data files (ignored unless tracked via LFS)
+*.pt
+*.pth
+*.onnx
+*.nii
+*.zip
+data/
+models/
+
+# Streamlit cache
+.streamlit/
